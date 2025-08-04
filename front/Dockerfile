@@ -1,4 +1,4 @@
-FROM node:24.5 as node
+FROM node:24
 
 COPY /netology-diplom-frontend .
 RUN npm install

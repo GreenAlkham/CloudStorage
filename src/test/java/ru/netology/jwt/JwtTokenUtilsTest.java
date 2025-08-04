@@ -8,9 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
+import ru.netology.base.BaseDbTest;
 
 @SpringBootTest
-public class JwtTokenUtilsTest {
+public class JwtTokenUtilsTest extends BaseDbTest {
     static UserDetails userDetails;
     static String testEmail = "test@test.ru";
     static String testPassword = "test";
